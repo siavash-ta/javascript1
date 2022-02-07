@@ -20,7 +20,7 @@ const shoppingCart = ['bananas', 'milk'];
 const list=['chocolate','waffles','tea'];
 let i
 function shopping(){
-let newShoppingCart=[shoppingCart];
+let newShoppingCart=[shoppingCart];//i can use newShoppingCart=[...shoppingCart] eather
   for (i=0;i<list.length;i++) {
   
   newShoppingCart.push(list[i]);
